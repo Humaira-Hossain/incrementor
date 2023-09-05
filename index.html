@@ -1,15 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Incrementor</title>
   </head>
   <body>
     <div class="container">
       <h1>Count:</h1>
       <h2 id="count-el">0</h2>
-      <button id="increment-btn" onclick="increment()">INCREMENT</button>
+      <button class="increment-btn" id="increment-btn" onclick="increment()">ADD 1</button>
       <button id="save-btn" onclick="save()">SAVE</button>
       <p id="save-el">Previous Entries: </p>
       <p id="total-el">Running Total: 0</p>

@@ -8,7 +8,6 @@ let runningTotalSlice = totalEl.textContent.slice(0, 15)
 function increment() {
   count += 1
   total += 1
-  console.log(total)
   countEl.innerText = count
 }
 
